@@ -6,7 +6,7 @@ A highly opinionated next.js boilerplate featuring [redux-saga](https://redux-sa
 
 # Demo
 
-![public/demo.gif](/public/demo.gif)
+![public/demo.gif](public/demo.gif)
 
 Further documentation is on the way...
 
