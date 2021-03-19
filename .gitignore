@@ -1,5 +1,7 @@
 # dependencies
 /node_modules
+/javascript/node_modules
+/typescript/node_modules
 
 # testing
 /coverage
