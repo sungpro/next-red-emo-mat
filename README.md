@@ -1,6 +1,6 @@
 <p>
   <h1 align="center" style="color: #008080">next-red-emo-mat</h1>
-</p>
+
 
 A scalable, highly opinionated [next.js](https://nextjs.org/) boilerplate featuring [redux-saga](https://redux-saga.js.org/), [Emotion](https://emotion.sh/), [Material UI](https://material-ui.com/), and most importantly, 🔥 dark mode.
 
@@ -30,15 +30,15 @@ Below is the tree structure of this template (files and sub-directories that are
   <code>
 .
 ├── README.md
-├── <p style="display: inline; font-weight: bold; color: red;">javascript</p>
+├──⭐javascript
 │   ├── .babelrc
 │   ├── .nvmrc
 │   ├── next-env.d.ts
 │   ├── next.config.js
 │   ├── package.json
 │   ├── public
-│   ├──<p style="display: inline; font-weight: bold; color: blue;">src</p>
-│   │   ├── <p style="display: inline; font-weight: bold; color: green;">assets</p>
+│   ├──⭐src
+│   │   ├── assets
 │   │   │   └── jss
 │   │   │       └── themes
 │   │   │           ├── base.ts
@@ -46,32 +46,32 @@ Below is the tree structure of this template (files and sub-directories that are
 │   │   │           ├── index.ts
 │   │   │           ├── light.ts
 │   │   │           └── teal.ts
-│   │   ├── <p style="display: inline; font-weight: bold; color: green;">components</p>
+│   │   ├── components
 │   │   │   ├── Header
 │   │   │   │   └── Header.jsx
 │   │   │   └── TextPlaceholder
 │   │   │       └── TextPlaceholder.jsx
-│   │   ├── <p style="display: inline; font-weight: bold; color: green;">lib</p>
+│   │   ├── lib
 │   │   │   └── redux
 │   │   │       ├── modules
 │   │   │       │   ├── index.ts
 │   │   │       │   └── theme.ts
 │   │   │       └── store.ts
-│   │   └── <p style="display: inline; font-weight: bold; color: green;">pages</p>
+│   │   └── pages
 │   │       ├── _app.jsx
 │   │       ├── _document.jsx
 │   │       └── index.jsx
 │   ├── yarn-error.log
 │   └── yarn.lock
-└── <p style="display: inline; font-weight: bold; color: red;">typescript</p>
+└──⭐typescript
     ├── .babelrc
     ├── .nvmrc
     ├── next-env.d.ts
     ├── next.config.js
     ├── package.json
     ├── public
-    ├── <p style="display: inline; font-weight: bold; color: blue;">src</p>
-    │   ├── <p style="display: inline; font-weight: bold; color: green;">assets</p>
+    ├──⭐src
+    │   ├── assets
     │   │   └── jss
     │   │       └── themes
     │   │           ├── base.ts
@@ -79,18 +79,18 @@ Below is the tree structure of this template (files and sub-directories that are
     │   │           ├── index.ts
     │   │           ├── light.ts
     │   │           └── teal.ts
-    │   ├── <p style="display: inline; font-weight: bold; color: green;">components</p>
+    │   ├── components
     │   │   ├── Header
     │   │   │   └── Header.tsx
     │   │   └── TextPlaceholder
     │   │       └── TextPlaceholder.tsx
-    │   ├── <p style="display: inline; font-weight: bold; color: green;">lib</p>
+    │   ├── lib
     │   │   └── redux
     │   │       ├── modules
     │   │       │   ├── index.ts
     │   │       │   └── theme.ts
     │   │       └── store.ts
-    │   └── <p style="display: inline; font-weight: bold; color: green;">pages</p>
+    │   └── pages
     │       ├── _app.tsx
     │       ├── _document.tsx
     │       └── index.tsx
