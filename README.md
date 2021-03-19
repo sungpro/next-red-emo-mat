@@ -23,19 +23,20 @@ npm run dev
 
 Below is the tree structure of this template (files and sub-directories that are irrelevant are excluded):
 
+
 <pre>
   <code>
 .
 ├── README.md
-├── <b style="color: red;">javascript</b>
+├── <span style="font-weight: bold; color: red;">javascript</span>
 │   ├── .babelrc
 │   ├── .nvmrc
 │   ├── next-env.d.ts
 │   ├── next.config.js
 │   ├── package.json
 │   ├── public
-│   ├── <b style="color: blue;">src</b>
-│   │   ├── assets
+│   ├── <span style="display: inline; font-weight: bold; color: blue;">src</span>
+│   │   ├── <span style="font-weight: bold; color: green;">assets</span>
 │   │   │   └── jss
 │   │   │       └── themes
 │   │   │           ├── base.ts
@@ -43,32 +44,32 @@ Below is the tree structure of this template (files and sub-directories that are
 │   │   │           ├── index.ts
 │   │   │           ├── light.ts
 │   │   │           └── teal.ts
-│   │   ├── components
+│   │   ├── <span style="font-weight: bold; color: green;">components</span>
 │   │   │   ├── Header
 │   │   │   │   └── Header.jsx
 │   │   │   └── TextPlaceholder
 │   │   │       └── TextPlaceholder.jsx
-│   │   ├── lib
+│   │   ├── <span style="font-weight: bold; color: green;">lib</span>
 │   │   │   └── redux
 │   │   │       ├── modules
 │   │   │       │   ├── index.ts
 │   │   │       │   └── theme.ts
 │   │   │       └── store.ts
-│   │   └── pages
+│   │   └── <span style="font-weight: bold; color: green;">pages</span>
 │   │       ├── _app.jsx
 │   │       ├── _document.jsx
 │   │       └── index.jsx
 │   ├── yarn-error.log
 │   └── yarn.lock
-└── <b style="color: red">typescript</b>
+└── <span style="font-weight: bold; color: red">typescript</span>
     ├── .babelrc
     ├── .nvmrc
     ├── next-env.d.ts
     ├── next.config.js
     ├── package.json
     ├── public
-    ├── <b style="color: blue;">src</b>
-    │   ├── assets
+    ├── <span style="font-weight: bold; color: blue;">src</span>
+    │   ├── <span style="font-weight: bold; color: green;">assets</span>
     │   │   └── jss
     │   │       └── themes
     │   │           ├── base.ts
@@ -76,18 +77,18 @@ Below is the tree structure of this template (files and sub-directories that are
     │   │           ├── index.ts
     │   │           ├── light.ts
     │   │           └── teal.ts
-    │   ├── components
+    │   ├── <span style="font-weight: bold; color: green;">components</span>
     │   │   ├── Header
     │   │   │   └── Header.tsx
     │   │   └── TextPlaceholder
     │   │       └── TextPlaceholder.tsx
-    │   ├── lib
+    │   ├── <span style="font-weight: bold; color: green;">lib</span>
     │   │   └── redux
     │   │       ├── modules
     │   │       │   ├── index.ts
     │   │       │   └── theme.ts
     │   │       └── store.ts
-    │   └── pages
+    │   └── <span style="font-weight: bold; color: green;">pages</span>
     │       ├── _app.tsx
     │       ├── _document.tsx
     │       └── index.tsx
