@@ -24,19 +24,20 @@ npm run dev
 Below is the tree structure of this template (files and sub-directories that are irrelevant are excluded):
 
 
+
 <pre>
   <code>
 .
 ├── README.md
-├── <span style="font-weight: bold; color: red;">javascript</span>
+├── <div style="display: inline; font-weight: bold; color: red;">javascript</div>
 │   ├── .babelrc
 │   ├── .nvmrc
 │   ├── next-env.d.ts
 │   ├── next.config.js
 │   ├── package.json
 │   ├── public
-│   ├── <span style="display: inline; font-weight: bold; color: blue;">src</span>
-│   │   ├── <span style="font-weight: bold; color: green;">assets</span>
+│   ├── <div style="display: inline; font-weight: bold; color: blue;">src</div>
+│   │   ├── <div style="display: inline; font-weight: bold; color: green;">assets</div>
 │   │   │   └── jss
 │   │   │       └── themes
 │   │   │           ├── base.ts
@@ -44,32 +45,32 @@ Below is the tree structure of this template (files and sub-directories that are
 │   │   │           ├── index.ts
 │   │   │           ├── light.ts
 │   │   │           └── teal.ts
-│   │   ├── <span style="font-weight: bold; color: green;">components</span>
+│   │   ├── <div style="display: inline; font-weight: bold; color: green;">components</div>
 │   │   │   ├── Header
 │   │   │   │   └── Header.jsx
 │   │   │   └── TextPlaceholder
 │   │   │       └── TextPlaceholder.jsx
-│   │   ├── <span style="font-weight: bold; color: green;">lib</span>
+│   │   ├── <div style="display: inline; font-weight: bold; color: green;">lib</div>
 │   │   │   └── redux
 │   │   │       ├── modules
 │   │   │       │   ├── index.ts
 │   │   │       │   └── theme.ts
 │   │   │       └── store.ts
-│   │   └── <span style="font-weight: bold; color: green;">pages</span>
+│   │   └── <div style="display: inline; font-weight: bold; color: green;">pages</div>
 │   │       ├── _app.jsx
 │   │       ├── _document.jsx
 │   │       └── index.jsx
 │   ├── yarn-error.log
 │   └── yarn.lock
-└── <span style="font-weight: bold; color: red">typescript</span>
+└── <div style="display: inline; font-weight: bold; color: red;">typescript</div>
     ├── .babelrc
     ├── .nvmrc
     ├── next-env.d.ts
     ├── next.config.js
     ├── package.json
     ├── public
-    ├── <span style="font-weight: bold; color: blue;">src</span>
-    │   ├── <span style="font-weight: bold; color: green;">assets</span>
+    ├── <div style="display: inline; font-weight: bold; color: blue;">src</div>
+    │   ├── <div style="display: inline; font-weight: bold; color: green;">assets</div>
     │   │   └── jss
     │   │       └── themes
     │   │           ├── base.ts
@@ -77,18 +78,18 @@ Below is the tree structure of this template (files and sub-directories that are
     │   │           ├── index.ts
     │   │           ├── light.ts
     │   │           └── teal.ts
-    │   ├── <span style="font-weight: bold; color: green;">components</span>
+    │   ├── <div style="display: inline; font-weight: bold; color: green;">components</div>
     │   │   ├── Header
     │   │   │   └── Header.tsx
     │   │   └── TextPlaceholder
     │   │       └── TextPlaceholder.tsx
-    │   ├── <span style="font-weight: bold; color: green;">lib</span>
+    │   ├── <div style="display: inline; font-weight: bold; color: green;">lib</div>
     │   │   └── redux
     │   │       ├── modules
     │   │       │   ├── index.ts
     │   │       │   └── theme.ts
     │   │       └── store.ts
-    │   └── <span style="font-weight: bold; color: green;">pages</span>
+    │   └── <div style="display: inline; font-weight: bold; color: green;">pages</div>
     │       ├── _app.tsx
     │       ├── _document.tsx
     │       └── index.tsx
